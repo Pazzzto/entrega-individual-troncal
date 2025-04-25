@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JAVIERA TORRES</title>
+    <style>
+      body{
+        margin:0;
+        padding:0;
+        font-family:Helvetica, Arial, sans-serif;
+        text-align: center;
+      }
+      header, main, footer{
+        width:min(90%,800px);
+        margin:1rem auto;
+        text-align: left;
+      }
+      h1,h2{
+        text-align: center;
+        line-height: 1;
+        font-weight: lighter;
+        color: #456;
+      }
+
+      h1{
+        margin:5rem 0 1rem 0;
+        font-size:calc(2rem + 2vw);
+      }
+
+      h2{
+        margin:1rem 0 4rem 0;
+        font-size:calc(1rem + 1vw);
+      }
+
+      h3{
+        margin:2rem 0 0 0;
+        font-size:calc(1rem + 0.5vw);  
+        font-weight: normal;
+        text-decoration: underline;
+      }
+
+      p{
+        line-height: 1.5;
+      }
+      a{
+        color: #456;
+      }
+      a:hover{
+        color:#789;
+      }
+      img{
+        width:100%;
+        height:auto;
+      }
+
+      @media (orientation:portrait){
+        img.desktop{
+          display:none;
+        }
+      }
+
+      @media (orientation:landscape){
+        img.mobile{
+          display:none;
+        }
+      }
+
+      article{
+        margin-bottom:2rem;
+      }
+
+      footer{
+        text-align: center;
+        margin-top:3rem;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <h1>MIS PROPUESTAS</h1>
+      <h2>Por Javiera Torres</h2>
+      <p>Las siguientes son propuestas de visualizaciones de datos que me permitirían encontrar a quien me guíe en Proyecto de Título. Me basé en datos reales, disponibles por <a href="https://profesorfaco.github.io/troncal/clase-06/" target="_blank">aquí</a>, <a href="https://profesorfaco.github.io/troncal/clase-07/" target="_blank">allá</a> y <a href="https://disenouchile.github.io/guiaturas/guias.html" target="_blank">más allá</a>.</p>
+    </header>
+    <main>
+      <!--1-->
+      <article>
+        <h3>Primera propuesta</h3>
+        <p>Mediante esta propuesta de visualización, el usuario puede buscar profesores según la mención deseada, o bien buscar a un profesor específico. El propósito es visualizar con facilidad cuál es la probabilidad de aprobar título con uno u otro docente, considerando proporción entre guiades y titulades y notas obtenidas. Los distintos datos se representan mediante distintos tamaños, alturas, proporciones y colores. Al hacer click sobre uno de los items, se despliega un menú con información adicional</p>
+        <img src="sketching/propuesta-1-desktop.png" class="desktop">
+        <img src="sketching/propuesta-1-mobile.png" class="mobile">
+      </article>
+      <!--2-->
+      <article>
+        <h3>Segunda propuesta</h3>
+        <p>En esta visualización, se puede analizar el proceso de título por cada docente, viendo así aquellos alumnos que reprobaron título, y también aquellos que aprobaron. De estos últimos, se puede observar qué tan altas fueron sus notas, en base a la saturación del color de cada círculo. Esta propuesta permite una rápida visualización del historial de cada profesor en título, para hacerse una idea preliminar respecto a la elección de profesor guia. En la versión para celulares, se puede arrastrar cada uno de los items de profesores para verlos de manera completa.</p>
+        <img src="sketching/propuesta-2-desktop.png" class="desktop">
+        <img src="sketching/propuesta-2-mobile.png" class="mobile">
+      </article>
+      <!--3-->
+      <article>
+        <h3>Tercera propuesta</h3>
+        <p>Esta propuesta de visualización de datos busca resaltar el contraste entre los alumnos que fueron guiados por cada docente versus los que lograron titularse, esto representado por el ancho de cada figura que compone al círculo central y las figuras al interior de estas. Además, aquellos items con mayor porcentaje de éxito tienen una mayor saturación de color. La dinámica consiste en una rueda giratoria, dividida en tres secciones, una por cada mención con sus respectivas especificaciones. Esta rueda puede ser arrastrada, ya sea por mouse o táctil, para mostrar las demás menciones.</p>
+        <img src="sketching/propuesta-3-desktop.png" class="desktop">
+        <img src="sketching/propuesta-3-mobile.png" class="mobile">
+      </article>
+      <!--4-->
+      <article>
+        <h3>Cuarta propuesta</h3>
+        <p>El objetivo de esta visualización es la posibilidad de comparar entre varias opciones de profesores, según criterios aplicados por el usuario. La visualización mostrará los tres profesores que se adapten mejor a las necesidades del usuario, dispuestos entre un 1er, 2do y 3er lugar. Además proveerá de información adicional sobre estos, como el perfil del docente, y las memorias de título para las que fue guia.</p>
+        <img src="sketching/propuesta-4-desktop.png" class="desktop">
+        <img src="sketching/propuesta-4-mobile.png" class="mobile">
+      </article>
+      <!--5-->
+      <article>
+        <h3>Quinta propuesta</h3>
+        <p>Esta propuesta busca ser más interactiva con el usuario, inspirada en los varios quizzes de internet para averiguar a qué personaje te pareces, llega el quiz definitivo para averiguar a qué profesor te pareces. Con esta propuesta, el usuario podrá encontrar al profesor que se adapte mejor a sus necesidades y obtendrá una breve contextualización de este.</p>
+        <img src="sketching/propuesta-5-desktop.png" class="desktop">
+        <img src="sketching/propuesta-5-mobile.png" class="mobile">
+      </article>
+      <!--6-->
+      <article>
+        <h3>Sexta propuesta</h3>
+        <p>Esta propuesta consiste en una comparativa entre varias opciones de profesores, en base a necesidades más específicas y técnicas. Luego de ingresar los datos requeridos acerca de las necesidades para título, se genera automáticamente un gráfico que muestra los profesores cuya descripción es más cercana a lo que el usuario busca. Adicionalmente ofrece información del docente número 1 en la lista.</p>
+        <img src="sketching/propuesta-6-desktop.png" class="desktop">
+        <img src="sketching/propuesta-6-mobile.png" class="mobile">
+      </article>
+   </main>
+   <footer>
+        <p><small><a href="https://github.com/profesorfaco/troncal" target="_blank">Diseño y visualización de información</a> | Este ejercicio, preparado por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/profesorfaco">profesorfaco</a>, es publicado bajo licencia <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC 4.0</a></small></p></p>
+   </footer>
+  </body>
+</html>
